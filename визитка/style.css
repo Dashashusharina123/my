@@ -1,0 +1,1629 @@
+*{
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-color: rgb(54, 54, 54);
+}
+.header .container .navigation{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(54, 54, 54);
+}
+.header .container .navigation .nazvanie{
+    display: flex;
+    width: 60%;
+    color: white;
+    margin-left: 50px;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.header .container .navigation .knopki{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header .container .navigation .knopki .tri{
+    margin-left: 80px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.header .container .navigation .knopki .two{
+    margin-left: 80px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.header .container .navigation .knopki .one{
+    margin-left: 80px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.pervaia .container .str1 .pic1{
+    width: 50%;
+}
+.pervaia .container .str1 .pic1 img{
+    width: 380px;
+    margin-left: 50px;
+    padding-top: 110px;
+}
+.pervaia .container .str1{
+    display: flex;
+    flex-direction: row;
+}
+.pervaia .container .str1 .text1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 110px;
+    margin-left: 25px;
+}
+.pervaia .container .str1 .text1 .zagl1{
+    font-size: 35px;
+}
+.pervaia .container .str1 .text1 .obomne{
+    font-size: 25px;
+    margin-top: 50px;
+}
+.pervaia .container .str1 .text1 .knopka1{
+    background-color: rgb(247, 131, 170);
+    margin-top: 70px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-color: darkgray;
+}
+.vtoraia .container .str2{
+    margin-top: 120px;
+}
+.vtoraia .container .str2 .zagl2{
+    display: flex;
+    justify-content: center;
+    padding: 110px;
+}
+.vtoraia{
+    background-color: rgba(247, 131, 170, 0.493);
+}
+.vtoraia .container .str2 .zagl2 p{
+    font-size: 35px;
+    color: white;
+    background-color: rgb(54, 54, 54);
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.vtoraia .container .str2 .niz{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.vtoraia .container .str2 .niz .pic2 img{
+    width: 100%px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+}
+.vtoraia .container .str2 .niz .pic2{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.vtoraia .container .str2 .niz .left .text2{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 90px;
+}
+.vtoraia .container .str2 .niz .right .text3{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+ 
+}
+
+.vtoraia .container .str2 .niz .left .icon1 .pic3 img{
+    width: 100%;
+}
+.vtoraia .container .str2 .niz .right .icon2 .pic7 img{
+    width: 90%;
+}
+.vtoraia .container .str2 .niz .left{
+    width: 35%;
+}
+.vtoraia .container .str2 .niz .right{
+    width: 35%;
+}
+.vtoraia .container .str2 .niz .pic2{
+    width: 30%;
+}
+.tretia .container .str3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    cursor: pointer;
+}
+.tretia .container .str3 .foto{
+    width: 55%;
+}
+.tretia .container .str3 .foto img{
+    width: 100%;
+}
+.tretia .container .str3 .texta{
+    margin-left: 70px;
+    padding-top: 50px;
+}
+.tretia .container .str3 .texta .zagl3{
+    font-size: 35px;
+}
+.tretia .container .str3 .texta .text4{
+    font-size: 25px;
+    margin-top: 90px;
+}
+.tretia .container .str3 .knopka2{
+    background-color: rgb(247, 131, 170);
+    margin-top: 70px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-color: darkgray;
+}
+.chetre .container .str4{
+    display: flex;
+    flex-direction: row;
+}
+.chetre .container .str4 .fotka{
+    width: 50%;
+}
+.chetre .container .str4 .fotka .pic14{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chetre .container .str4 .fotka img{
+    width: 450px;
+}
+.chetre .container .str4 .txt{
+    width: 50%;
+    padding-top: 100px;
+}
+.chetre .container .str4 .txt .zaglovok{
+    font-size: 35px;
+    color: white;
+    background-color: rgb(54, 54, 54);
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.chetre .container .str4 .txt .osnov{
+    font-size: 25px;
+    margin-top: 100px;
+}
+.chetre .container .str4{
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.chetre{
+    background-color: rgba(247, 131, 170, 0.493);
+}
+
+.down_footer{
+    background-color:#333232;
+}
+.down_footer .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.down_footer .container .group1 p{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 37px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.down_footer .container .group2{
+    display: flex;
+    justify-content: center;
+}
+.down_footer .container .group2 img{
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.down_footer .container .group3{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 45px;
+}
+.footer .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.footer .container h1{
+    font-size: 80px;
+    text-align: center;
+}
+.footer .container .group .pole .input-auth{
+    border:1px solid #475241;
+    width: 115%;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.footer .container .group .pole p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.footer .container .group .pole{
+    margin-left: -40px;
+}
+.footer .container .group .button-auth{
+    background-color:#333232;
+    border-color: #333232;
+    color: rgb(250, 255, 245);
+    padding: 15px 44px 15px 44px;
+    width: 114%;
+    font-size: 18px;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+
+
+@media (max-width: 1200px) {
+    .container{
+        width: 950px;
+    }
+    .header .container .navigation .nazvanie{
+        font-size: 18px;
+    }
+    .header .container .navigation .knopki .tri{
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .header .container .navigation .knopki .two{
+        margin-left: 50px;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .header .container .navigation .knopki .one{
+        margin-left: 50px;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .pervaia .container .str1 .pic1 img{
+        width: 300px;
+        margin-left: 50px;
+        padding-top: 110px;
+    }
+    .pervaia .container .str1 .text1{
+        display: flex;
+        flex-direction: column;
+        padding-top: 110px;
+        margin-left: 25px;
+    }
+    .pervaia .container .str1 .text1 .zagl1{
+        font-size: 31px;
+    }
+    .pervaia .container .str1 .text1 .obomne{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .pervaia .container .str1 .text1 .knopka1{
+        background-color: rgb(247, 131, 170);
+        margin-top: 50px;
+        font-size: 19px;
+        display: flex;
+        justify-content: center;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        border-color: darkgray;
+    }
+
+
+
+
+    .vtoraia .container .str2 .zagl2 p{
+        font-size: 31px;
+        color: white;
+        background-color: rgb(54, 54, 54);
+        width: 32%;
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .vtoraia .container .str2 .niz .pic2 img{
+        width: 100%px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 250px;
+    }
+    .vtoraia .container .str2 .niz .pic2{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    
+    .vtoraia .container .str2 .niz .left .text2{
+        font-size: 19px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 90px;
+        margin-top: -20px;
+    }
+    .vtoraia .container .str2 .niz .right .text3{
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 100px;
+        margin-top: -20px;
+     
+    }
+    
+    
+
+    .tretia .container .str3{
+        display: flex;
+        flex-direction: row;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        cursor: pointer;
+    }
+    .tretia .container .str3 .foto{
+        width: 60%;
+    }
+    .tretia .container .str3 .foto img{
+        width: 100%;
+        padding-top: 100px;
+    }
+    .tretia .container .str3 .texta{
+        margin-left: 70px;
+        padding-top: 50px;
+    }
+    .tretia .container .str3 .texta .zagl3{
+        font-size: 31px;
+    }
+    .tretia .container .str3 .texta .text4{
+        font-size: 19px;
+        margin-top: 70px;
+    }
+    .tretia .container .str3 .knopka2{
+        background-color: rgb(247, 131, 170);
+        margin-top: 70px;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        border-color: darkgray;
+    }
+
+
+
+
+    .chetre .container .str4{
+        display: flex;
+        flex-direction: row;
+    }
+    .chetre .container .str4 .fotka{
+        width: 50%;
+    }
+    .chetre .container .str4 .fotka .pic14{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .chetre .container .str4 .fotka img{
+        width: 300px;
+    }
+    .chetre .container .str4 .txt{
+        width: 50%;
+        padding-top: 60px;
+    }
+    .chetre .container .str4 .txt .zaglovok{
+        font-size: 31px;
+        color: white;
+        background-color: rgb(54, 54, 54);
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        padding-top: 9px;
+        padding-bottom: 10px;
+    }
+    .chetre .container .str4 .txt .osnov{
+        font-size: 19px;
+        margin-top: 40px;
+    }
+
+
+
+    .down_footer{
+        background-color: rgb(54, 54, 54);
+    }
+    .down_footer .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .down_footer .container .group1 p{
+        font-size: 18px;
+        color: #fff;
+        margin-top: 37px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    .down_footer .container .group2{
+        display: flex;
+        justify-content: center;
+    }
+    .down_footer .container .group2 img{
+        width: 50%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .down_footer .container .group3{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        color: #fff;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-right: 45px;
+    }
+    .footer .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+    .footer .container h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    .footer .container .group .pole .input-auth{
+        border:1px solid #475241;
+        width: 115%;
+        height: 45px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .footer .container .group .pole p{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .footer .container .group .pole{
+        margin-left: -40px;
+    }
+    .footer .container .group .button-auth{
+        background-color: rgb(54, 54, 54);
+        border-color: #333232;
+        color: rgb(250, 255, 245);
+        padding: 15px 44px 15px 44px;
+        width: 114%;
+        font-size: 18px;
+        margin-top: 30px;
+        cursor: pointer;
+        margin-bottom: 80px;
+    }
+
+}
+@media (max-width: 992px) {
+    .container{
+        width: 720px;
+    }
+    .header .container .navigation .nazvanie{
+        font-size: 14px;
+    }
+    .header .container .navigation .knopki .tri{
+        margin-left: 50px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 11px;
+    }
+    .header .container .navigation .knopki .two{
+        margin-left: 50px;
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 11px;
+    }
+    .header .container .navigation .knopki .one{
+        margin-left: 50px;
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 11px;
+    }
+    .pervaia .container .str1 .pic1 img{
+        width: 250px;
+        margin-left: 20px;
+        padding-top: 110px;
+    }
+    .pervaia .container .str1 .text1{
+        display: flex;
+        flex-direction: column;
+        padding-top: 110px;
+        margin-left: 25px;
+    }
+    .pervaia .container .str1 .text1 .zagl1{
+        font-size: 26px;
+    }
+    .pervaia .container .str1 .text1 .obomne{
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    .pervaia .container .str1 .text1 .knopka1{
+        background-color: rgb(247, 131, 170);
+        margin-top: 40px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        border-color: darkgray;
+    }
+
+
+
+
+    .vtoraia .container .str2 .zagl2 p{
+        font-size: 26px;
+        color: white;
+        background-color: rgb(54, 54, 54);
+        width: 42%;
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .vtoraia .container .str2 .niz .pic2 img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 200px;
+    }
+    .vtoraia .container .str2 .niz .pic2{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    
+    .vtoraia .container .str2 .niz .left .text2{
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 90px;
+        margin-top: -40px;
+    }
+    .vtoraia .container .str2 .niz .right .text3{
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 100px;
+        margin-top: -40px;
+     
+    }
+    .vtoraia .container .str2 .niz .left .icon1 .pic3 img{
+        width: 90%;
+    }
+    .vtoraia .container .str2 .niz .right .icon2 .pic7 img{
+        width: 80%;
+    }
+    .vtoraia .container .str2{
+        margin-top: 60px;
+    }
+    
+    
+
+    .tretia .container .str3{
+        display: flex;
+        flex-direction: row;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        cursor: pointer;
+    }
+    .tretia .container .str3 .foto{
+        width: 80%;
+    }
+    .tretia .container .str3 .foto img{
+        width: 120%;
+        padding-top: 100px;
+    }
+    .tretia .container .str3 .texta{
+        margin-left: 70px;
+        padding-top: 50px;
+    }
+    .tretia .container .str3 .texta .zagl3{
+        font-size: 26px;
+    }
+    .tretia .container .str3 .texta .text4{
+        font-size: 16px;
+        margin-top: 50px;
+    }
+    .tretia .container .str3 .knopka2{
+        background-color: rgb(247, 131, 170);
+        margin-top: 50px;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        border-color: darkgray;
+    }
+
+
+
+
+    .chetre .container .str4{
+        display: flex;
+        flex-direction: row;
+    }
+    .chetre .container .str4 .fotka{
+        width: 50%;
+    }
+    .chetre .container .str4 .fotka .pic14{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .chetre .container .str4 .fotka img{
+        width: 250px;
+    }
+    .chetre .container .str4 .txt{
+        width: 50%;
+        padding-top: 60px;
+    }
+    .chetre .container .str4 .txt .zaglovok{
+        font-size: 26px;
+        color: white;
+        background-color: rgb(54, 54, 54);
+        width: 55%;
+        display: flex;
+        justify-content: center;
+        padding-top: 9px;
+        padding-bottom: 10px;
+    }
+    .chetre .container .str4 .txt .osnov{
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+
+
+    .down_footer{
+        background-color: rgb(54, 54, 54);
+    }
+    .down_footer .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .down_footer .container .group1 p{
+        font-size: 13px;
+        color: #fff;
+        margin-top: 37px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    .down_footer .container .group2{
+        display: flex;
+        justify-content: center;
+    }
+    .down_footer .container .group2 img{
+        width: 100px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        height: 30px;
+    }
+    .down_footer .container .group3{
+        display: flex;
+        flex-direction: column;
+        font-size: 11px;
+        color: #fff;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-right: 45px;
+    }
+    .footer .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+    .footer .container h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .footer .container .group .pole .input-auth{
+        border:1px solid #475241;
+        width: 110%;
+        height: 40px;
+        margin-top: 8px;
+        margin-bottom: 15px;
+    }
+    .footer .container .group .pole p{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .footer .container .group .pole{
+        margin-left: -40px;
+    }
+    .footer .container .group .button-auth{
+        background-color: rgb(54, 54, 54);
+        border-color: #333232;
+        color: rgb(250, 255, 245);
+        padding: 15px 44px 15px 44px;
+        width: 114%;
+        font-size: 16px;
+        margin-top: 30px;
+        cursor: pointer;
+        margin-bottom: 80px;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        width:  540px;
+    }
+    .header .container .navigation .nazvanie{
+        font-size: 11px;
+    }
+    .header .container .navigation .knopki{
+        margin-right: 20px;
+    }
+    .header .container .navigation .knopki .tri{
+        margin-left: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 9px;
+    }
+    .header .container .navigation .knopki .two{
+        margin-left: 30px;
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 9px;
+    }
+    .header .container .navigation .knopki .one{
+        margin-left: 30px;
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 9px;
+    }
+    .pervaia .container .str1 .pic1 img{
+        width: 200px;
+        margin-left: 20px;
+        padding-top: 70px;
+    }
+    .pervaia .container .str1 .text1{
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+        margin-left: 25px;
+    }
+    .pervaia .container .str1 .text1 .zagl1{
+        font-size: 23px;
+    }
+    .pervaia .container .str1 .text1 .obomne{
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    .pervaia .container .str1 .text1 .knopka1{
+        background-color: rgb(247, 131, 170);
+        margin-top: 40px;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        border-color: darkgray;
+        width: 90%;
+    }
+
+
+
+
+    .vtoraia .container .str2 .zagl2 p{
+        font-size: 23px;
+        color: white;
+        background-color: rgb(54, 54, 54);
+        width: 42%;
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .vtoraia .container .str2 .zagl2{
+        display: flex;
+        justify-content: center;
+        padding: 70px;
+    }
+    .vtoraia .container .str2 .niz .pic2 img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 200px;
+    }
+    .vtoraia .container .str2 .niz .pic2{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    
+    .vtoraia .container .str2 .niz .left .text2{
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+        margin-top: -40px;
+    }
+    .vtoraia .container .str2 .niz .right .text3{
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+        margin-top: -40px;
+     
+    }
+    .vtoraia .container .str2 .niz .left .icon1 .pic3 img{
+        width: 90%;
+    }
+    .vtoraia .container .str2 .niz .right .icon2 .pic7 img{
+        width: 80%;
+    }
+    .vtoraia .container .str2{
+        margin-top: 60px;
+    }
+    .vtoraia .container .str2 .niz{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 80px;
+    }
+    
+    
+
+    .tretia .container .str3{
+        display: flex;
+        flex-direction: row;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        cursor: pointer;
+    }
+    .tretia .container .str3 .foto{
+        width: 60%;
+    }
+    .tretia .container .str3 .foto img{
+        width: 100%;
+        padding-top: 30px;
+    }
+    .tretia .container .str3 .texta{
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+    .tretia .container .str3 .texta .zagl3{
+        font-size: 23px;
+    }
+    .tretia .container .str3 .texta .text4{
+        font-size: 13px;
+        margin-top: 40px;
+    }
+    .tretia .container .str3 .knopka2{
+        background-color: rgb(247, 131, 170);
+        margin-top: 40px;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        border-color: darkgray;
+        width: 80%;
+    }
+
+
+
+
+    .chetre .container .str4{
+        display: flex;
+        flex-direction: row;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .chetre .container .str4 .fotka{
+        width: 50%;
+    }
+    .chetre .container .str4 .fotka .pic14{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .chetre .container .str4 .fotka img{
+        width: 200px;
+    }
+    .chetre .container .str4 .txt{
+        width: 50%;
+        padding-top: 30px;
+        margin-left: 20px;
+    }
+    .chetre .container .str4 .txt .zaglovok{
+        font-size: 23px;
+        color: white;
+        background-color: rgb(54, 54, 54);
+        width: 55%;
+        display: flex;
+        justify-content: center;
+        padding-top: 9px;
+        padding-bottom: 10px;
+    }
+    .chetre .container .str4 .txt .osnov{
+        font-size: 13px;
+        margin-top: 40px;
+    }
+
+
+
+    .down_footer{
+        background-color: rgb(54, 54, 54);
+    }
+    .down_footer .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .down_footer .container .group1 p{
+        font-size: 13px;
+        color: #fff;
+        margin-top: 37px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    .down_footer .container .group2{
+        display: flex;
+        justify-content: center;
+    }
+    .down_footer .container .group2 img{
+        width: 95px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        height: 25px;
+    }
+    .down_footer .container .group3{
+        display: flex;
+        flex-direction: column;
+        font-size: 11px;
+        color: #fff;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-right: 45px;
+    }
+    .footer .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+    .footer .container h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .footer .container .group .pole .input-auth{
+        border:1px solid #475241;
+        width: 100%;
+        height: 40px;
+        margin-top: 8px;
+        margin-bottom: 15px;
+    }
+    .footer .container .group .pole p{
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .footer .container .group .pole{
+        margin-left: -10px;
+    }
+    .footer .container .group .button-auth{
+        background-color: rgb(54, 54, 54);
+        border-color: #333232;
+        color: rgb(250, 255, 245);
+        padding: 15px 44px 15px 44px;
+        width: 100%;
+        font-size: 16px;
+        margin-top: 30px;
+        cursor: pointer;
+        margin-bottom: 80px;
+    }
+}
+@media (max-width: 576px) {
+    .container{
+        width:  98%;
+    }
+    .header .container .navigation .nazvanie{
+        font-size: 11px;
+    }
+    .header .container .navigation .knopki{
+        margin-right: 20px;
+    }
+    .header .container .navigation .knopki .tri{
+        margin-left: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 9px;
+    }
+    .header .container .navigation .knopki .two{
+        margin-left: 30px;
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 9px;
+    }
+    .header .container .navigation .knopki .one{
+        margin-left: 30px;
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 9px;
+    }
+    .pervaia .container .str1 .pic1 img{
+        width: 200px;
+        margin-left: 20px;
+        padding-top: 70px;
+    }
+    .pervaia .container .str1 .text1{
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+        margin-left: 25px;
+    }
+    .pervaia .container .str1 .text1 .zagl1{
+        font-size: 23px;
+    }
+    .pervaia .container .str1 .text1 .obomne{
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    .pervaia .container .str1 .text1 .knopka1{
+        background-color: rgb(247, 131, 170);
+        margin-top: 40px;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        border-color: darkgray;
+        width: 90%;
+    }
+
+
+
+
+    .vtoraia .container .str2 .zagl2 p{
+        font-size: 23px;
+        color: white;
+        background-color: rgb(54, 54, 54);
+        width: 42%;
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .vtoraia .container .str2 .zagl2{
+        display: flex;
+        justify-content: center;
+        padding: 70px;
+    }
+    .vtoraia .container .str2 .niz .pic2 img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 200px;
+    }
+    .vtoraia .container .str2 .niz .pic2{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    
+    .vtoraia .container .str2 .niz .left .text2{
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+        margin-top: -40px;
+    }
+    .vtoraia .container .str2 .niz .right .text3{
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+        margin-top: -40px;
+     
+    }
+    .vtoraia .container .str2 .niz .left .icon1 .pic3 img{
+        width: 90%;
+    }
+    .vtoraia .container .str2 .niz .right .icon2 .pic7 img{
+        width: 80%;
+    }
+    .vtoraia .container .str2{
+        margin-top: 60px;
+    }
+    .vtoraia .container .str2 .niz{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 80px;
+    }
+    
+    
+
+    .tretia .container .str3{
+        display: flex;
+        flex-direction: row;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        cursor: pointer;
+    }
+    .tretia .container .str3 .foto{
+        width: 60%;
+    }
+    .tretia .container .str3 .foto img{
+        width: 100%;
+        padding-top: 30px;
+    }
+    .tretia .container .str3 .texta{
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+    .tretia .container .str3 .texta .zagl3{
+        font-size: 23px;
+    }
+    .tretia .container .str3 .texta .text4{
+        font-size: 13px;
+        margin-top: 40px;
+    }
+    .tretia .container .str3 .knopka2{
+        background-color: rgb(247, 131, 170);
+        margin-top: 40px;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        border-color: darkgray;
+        width: 80%;
+    }
+
+
+
+
+    .chetre .container .str4{
+        display: flex;
+        flex-direction: row;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .chetre .container .str4 .fotka{
+        width: 50%;
+    }
+    .chetre .container .str4 .fotka .pic14{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .chetre .container .str4 .fotka img{
+        width: 200px;
+    }
+    .chetre .container .str4 .txt{
+        width: 50%;
+        padding-top: 30px;
+        margin-left: 20px;
+    }
+    .chetre .container .str4 .txt .zaglovok{
+        font-size: 23px;
+        color: white;
+        background-color: rgb(54, 54, 54);
+        width: 55%;
+        display: flex;
+        justify-content: center;
+        padding-top: 9px;
+        padding-bottom: 10px;
+    }
+    .chetre .container .str4 .txt .osnov{
+        font-size: 13px;
+        margin-top: 40px;
+    }
+
+
+
+    .down_footer{
+        background-color: rgb(54, 54, 54);
+    }
+    .down_footer .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .down_footer .container .group1 p{
+        font-size: 13px;
+        color: #fff;
+        margin-top: 37px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    .down_footer .container .group2{
+        display: flex;
+        justify-content: center;
+    }
+    .down_footer .container .group2 img{
+        width: 95px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        height: 25px;
+    }
+    .down_footer .container .group3{
+        display: flex;
+        flex-direction: column;
+        font-size: 11px;
+        color: #fff;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-right: 45px;
+    }
+    .footer .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    .footer .container h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .footer .container .group .pole .input-auth{
+        border:1px solid #475241;
+        width: 100%;
+        height: 40px;
+        margin-top: 8px;
+        margin-bottom: 15px;
+    }
+    .footer .container .group .pole p{
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .footer .container .group .pole{
+        margin-left: -10px;
+    }
+    .footer .container .group .button-auth{
+        background-color: rgb(54, 54, 54);
+        border-color: #333232;
+        color: rgb(250, 255, 245);
+        padding: 15px 44px 15px 44px;
+        width: 100%;
+        font-size: 16px;
+        margin-top: 30px;
+        cursor: pointer;
+        margin-bottom: 80px;
+    }
+}
+@media (max-width: 480px) {
+    .container{
+        width:  98%;
+    }
+    .header .container .navigation .nazvanie{
+        font-size: 11px;
+    }
+    .header .container .navigation .knopki{
+        margin-right: 20px;
+    }
+    .header .container .navigation .knopki .tri{
+        margin-left: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 9px;
+    }
+    .header .container .navigation .knopki .two{
+        margin-left: 30px;
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 9px;
+    }
+    .header .container .navigation .knopki .one{
+        margin-left: 30px;
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 9px;
+    }
+    .pervaia .container .str1 .pic1 img{
+        width: 200px;
+        margin-left: 20px;
+        padding-top: 70px;
+    }
+    .pervaia .container .str1 .text1{
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+        margin-left: 25px;
+    }
+    .pervaia .container .str1 .text1 .zagl1{
+        font-size: 23px;
+    }
+    .pervaia .container .str1 .text1 .obomne{
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    .pervaia .container .str1 .text1 .knopka1{
+        background-color: rgb(247, 131, 170);
+        margin-top: 40px;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        border-color: darkgray;
+        width: 90%;
+    }
+
+
+
+
+    .vtoraia .container .str2 .zagl2 p{
+        font-size: 23px;
+        color: white;
+        background-color: rgb(54, 54, 54);
+        width: 42%;
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .vtoraia .container .str2 .zagl2{
+        display: flex;
+        justify-content: center;
+        padding: 70px;
+    }
+    .vtoraia .container .str2 .niz .pic2 img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 180px;
+    }
+    .vtoraia .container .str2 .niz .pic2{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    
+    .vtoraia .container .str2 .niz .left .text2{
+        font-size: 11px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+        margin-top: -40px;
+    }
+    .vtoraia .container .str2 .niz .right .text3{
+        font-size: 11px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+        margin-top: -40px;
+     
+    }
+    .vtoraia .container .str2 .niz .left .icon1 .pic3 img{
+        width: 90%;
+    }
+    .vtoraia .container .str2 .niz .right .icon2 .pic7 img{
+        width: 80%;
+    }
+    .vtoraia .container .str2{
+        margin-top: 60px;
+    }
+    .vtoraia .container .str2 .niz{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 80px;
+    }
+    
+    
+
+    .tretia .container .str3{
+        display: flex;
+        flex-direction: row;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        cursor: pointer;
+    }
+    .tretia .container .str3 .foto{
+        width: 60%;
+    }
+    .tretia .container .str3 .foto img{
+        width: 100%;
+        padding-top: 30px;
+    }
+    .tretia .container .str3 .texta{
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+    .tretia .container .str3 .texta .zagl3{
+        font-size: 23px;
+    }
+    .tretia .container .str3 .texta .text4{
+        font-size: 13px;
+        margin-top: 40px;
+    }
+    .tretia .container .str3 .knopka2{
+        background-color: rgb(247, 131, 170);
+        margin-top: 40px;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        border-color: darkgray;
+        width: 80%;
+    }
+
+
+
+
+    .chetre .container .str4{
+        display: flex;
+        flex-direction: row;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .chetre .container .str4 .fotka{
+        width: 50%;
+    }
+    .chetre .container .str4 .fotka .pic14{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .chetre .container .str4 .fotka img{
+        width: 200px;
+    }
+    .chetre .container .str4 .txt{
+        width: 50%;
+        padding-top: 30px;
+        margin-left: 20px;
+    }
+    .chetre .container .str4 .txt .zaglovok{
+        font-size: 23px;
+        color: white;
+        background-color: rgb(54, 54, 54);
+        width: 55%;
+        display: flex;
+        justify-content: center;
+        padding-top: 9px;
+        padding-bottom: 10px;
+    }
+    .chetre .container .str4 .txt .osnov{
+        font-size: 13px;
+        margin-top: 40px;
+    }
+
+
+
+    .down_footer{
+        background-color: rgb(54, 54, 54);
+    }
+    .down_footer .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .down_footer .container .group1 p{
+        font-size: 12px;
+        color: #fff;
+        margin-top: 37px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    .down_footer .container .group2{
+        display: flex;
+        justify-content: center;
+    }
+    .down_footer .container .group2 img{
+        width: 95px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        height: 25px;
+    }
+    .down_footer .container .group3{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        color: #fff;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-right: 35px;
+    }
+    .footer .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+    .footer .container h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .footer .container .group .pole .input-auth{
+        border:1px solid #475241;
+        width: 100%;
+        height: 40px;
+        margin-top: 8px;
+        margin-bottom: 15px;
+    }
+    .footer .container .group .pole p{
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .footer .container .group .pole{
+        margin-left: -10px;
+    }
+    .footer .container .group .button-auth{
+        background-color: rgb(54, 54, 54);
+        border-color: #333232;
+        color: rgb(250, 255, 245);
+        padding: 15px 44px 15px 44px;
+        width: 100%;
+        font-size: 16px;
+        margin-top: 30px;
+        cursor: pointer;
+        margin-bottom: 80px;
+    }
+}
